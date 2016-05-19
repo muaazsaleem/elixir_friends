@@ -6,9 +6,11 @@ To start your Phoenix app:
   2. Create and migrate your database with `mix ecto.create && mix ecto.migrate`
   3. Start Phoenix endpoint with `mix phoenix.server`
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+This application takes a given Hashtag and then streams pictures shared on
+that hashtag to the browser. Made using Phoenix and a sprinkle of React
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+Created by following http://elixirsips.com/ videos
+
 
 ## Learn more
 
