@@ -1,0 +1,31 @@
+<h2>Look my twitter things app</h2>
+
+<div id="app"></div>
+
+<!-- <%= pagination_links(@posts_page) %>
+<div class="ui grid">
+  <%= for post <- @posts_page.entries do %>
+    <div class="four wide column">
+      <div class="ui card">
+        <div class="image">
+          <img src='<%= post.image_url %>' />
+        </div>
+        <div class="content">
+          <div class="header">
+            <%= post.username %>
+          </div>
+          <div class="meta">
+            <span class="date"><%= post.inserted_at %></span>
+          </div>
+          <div class="description">
+            <%= post.content %>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+<div>
+  <%= pagination_links(@posts_page) %>
+</div> -->
+<%= link "New post", to: post_path(@conn, :new) %>

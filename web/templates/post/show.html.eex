@@ -1,0 +1,23 @@
+<h2>Show post</h2>
+<img src='<%= @post.image_url %>' />
+<ul>
+
+  <li>
+    <strong>Image url:</strong>
+    <%= @post.image_url %>
+  </li>
+
+  <li>
+    <strong>Content:</strong>
+    <%= @post.content %>
+  </li>
+
+  <li>
+    <strong>Source url:</strong>
+    <%= @post.source_url %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: post_path(@conn, :edit, @post) %>
+<%= link "Back", to: post_path(@conn, :index) %>
